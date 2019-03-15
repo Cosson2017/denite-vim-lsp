@@ -1,2 +1,3 @@
-/rplugin/python3/denite/__pycache__
+rplugin/python3/denite/__pycache__
 rplugin/python3/denite/source/__pycache__
+rplugin/python3/denite/lsp/__pycache__/protocol.cpython-37.pyc
