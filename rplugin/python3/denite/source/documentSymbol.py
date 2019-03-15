@@ -27,4 +27,3 @@ class Source(Base):
         bufname = self.vim.current.buffer.name
         result = self.vim.funcs.Denite_document_symbol() or []
         return convert_symbols_to_candidates(result, bufname)
-        #    LanguageClient_textDocument_documentSymbol', {}) or []
