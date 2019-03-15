@@ -39,6 +39,6 @@ function! Denite_document_symbol() abort
 	return result
 endfunction
 
-function s:test_cb(data)
-	nvim_log#debug(string(data))
-endfunction
+"function s:test_cb(data)
+"	call nvim_log#debug(string(a:data))
+"endfunction
